@@ -7,6 +7,10 @@ This is a beta release, it mostly works but might have some quirks and can proba
 
 ## Release Notes
 
+### 0.1.1
+
+Added repository URL to package.json
+
 ### 0.1.0
 
 Initial release
