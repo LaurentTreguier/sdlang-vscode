@@ -7,6 +7,13 @@
     "license": "SEE LICENSE IN LICENSE",
     "icon": "images/sdlang.png",
     "homepage": "https://github.com/LaurentTreguier/sdlang-vscode",
+    "bugs": {
+        "url": "https://github.com/LaurentTreguier/sdlang-vscode/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/LaurentTreguier/sdlang-vscode.git"
+    },
     "keywords": [
         "simple",
         "declarative",
