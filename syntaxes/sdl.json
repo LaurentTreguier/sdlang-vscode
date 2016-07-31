@@ -63,8 +63,12 @@
             ]
         },
         {
-            "name": "constant.language.sdl",
-            "match": "\\b(?:null|true|false|on|off)\\b"
+            "name": "constant.language.boolean.sdl",
+            "match": "\\b(?:true|false|on|off)\\b"
+        },
+        {
+            "name": "constant.language.null.sdl",
+            "match": "\\bnull\\b"
         },
         {
             "name": "constant.other.date.sdl",
