@@ -5,8 +5,16 @@
     ],
     "patterns": [
         {
-            "name": "comment.line.sdl",
-            "match": "(?://|--|#).*$"
+            "name": "comment.line.double-slash.sdl",
+            "match": "//.*$"
+        },
+        {
+            "name": "comment.line.double-dash.sdl",
+            "match": "--.*$"
+        },
+        {
+            "name": "comment.line.number-sign.sdl",
+            "match": "#.*$"
         },
         {
             "name": "comment.block.sdl",
