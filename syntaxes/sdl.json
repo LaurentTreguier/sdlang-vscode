@@ -6,7 +6,7 @@
     "patterns": [
         {
             "name": "comment.line.sdl",
-            "match": "(//|--|#).*$"
+            "match": "(?://|--|#).*$"
         },
         {
             "name": "comment.block.sdl",
@@ -56,15 +56,15 @@
         },
         {
             "name": "constant.language.sdl",
-            "match": "\\b(null|true|false|on|off)\\b"
+            "match": "\\b(?:null|true|false|on|off)\\b"
         },
         {
             "name": "constant.other.date.sdl",
-            "match": "\\b\\d{4}/\\d{2}/\\d{2}(\\s+(\\d+d:)?\\d+:\\d+:\\d+\\.?\\d*(-[A-Z]{3})?)?\\b"
+            "match": "\\b\\d{4}/\\d{2}/\\d{2}(?:\\s+(?:\\d+d:)?\\d+:\\d+:\\d+\\.?\\d*(?:-[A-Z]{3})?)?\\b"
         },
         {
             "name": "constant.other.duration.sdl",
-            "match": "\\b(\\d+d:)?\\d+:\\d+:\\d+(\\.\\d+)?\\b"
+            "match": "\\b(?:\\d+d:)?\\d+:\\d+:\\d+(?:\\.\\d+)?\\b"
         },
         {
             "name": "constant.numeric.decimal.sdl",
@@ -79,9 +79,9 @@
             }
         },
         {
-            "match": "(^|;|\\{)\\s*([a-zA-Z_][\\w\\-$.]*(:[a-zA-Z_][\\w\\-$.]*)?)\\b",
+            "match": "(?:^|;|\\{)\\s*([a-zA-Z_][\\w\\-$.]*(?::[a-zA-Z_][\\w\\-$.]*)?)\\b",
             "captures": {
-                "2": {
+                "1": {
                     "name": "entity.name.tag.sdl"
                 }
             }
