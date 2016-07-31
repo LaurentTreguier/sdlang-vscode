@@ -2,7 +2,7 @@
     "name": "sdlang",
     "displayName": "SDLang",
     "description": "Support for the Simple Declarative Language (http://sdlang.org)",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "publisher": "LaurentTreguier",
     "license": "SEE LICENSE IN LICENSE",
     "icon": "images/sdlang.png",
